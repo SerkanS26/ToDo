@@ -1,0 +1,51 @@
+﻿body{
+    background-color:antiquewhite;
+}
+
+
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+}
+
+#editForm {
+    display: none;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+   
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.box{
+    margin: 150px auto;
+    width: 400px;
+    padding: 10px;
+
+}
+
+.addButton{
+    background-color:darkseagreen;
+    color:grey;
+    font-weight: bold;
+    font-size:medium;
+}
+
+h1,h3{
+    color:grey;
+    font-weight:bold;
+}
+h1{
+    font-size:50px;
+}
